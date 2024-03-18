@@ -114,7 +114,8 @@ document.addEventListener('mousemove', (event) => {
     </section>
 
 
-    <section id="project" class="flex justify-center mb-10 ">
+    <section id="project" class="flex flex-col items-center mb-10 ">
+      <h1 class="text-2xl font-bold mb-5 ">My Project</h1>
       <div class="w-3/5 shadow-lg">
         <carousel />
       </div>
@@ -125,6 +126,10 @@ document.addEventListener('mousemove', (event) => {
     <section class="mt-20">
       <footerrel />
       
+    </section>
+
+    <section id="playg" class="">
+
     </section>
     
     <footbar />

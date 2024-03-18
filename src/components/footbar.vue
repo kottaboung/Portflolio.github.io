@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-white border-t-2 py-4 sticky bottom-0 md:hidden">
+    <footer class="bg-white border-t-2 py-4 sticky bottom-0 md:hidden z-50">
       <div class="container mx-auto text-center">
         <ul class="flex justify-center gap-10">
           <li class=" rounded-lg hover:bg-gray-100 hover:shadow-md p-1">

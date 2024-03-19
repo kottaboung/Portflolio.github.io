@@ -1,6 +1,6 @@
 <template>
-    <div id="pop" class="flex flex-col ">
-        <button @click="toggleGrid" class=" rounded-full px-3 py-2 hover:shadow-md hover:bg-gray-100 my-5" >See More</button>
+    <div id="pop" class="flex flex-col items-center">
+       
         <div v-if="showGrid" id="gridContainer" class="grid-container">
         
         <ul class="flex flex-col md:flex-row md:flex-wrap gap-3 grid-item">
@@ -13,6 +13,10 @@
 
         </ul>
         </div>
+        <div class="w-fit">
+        <button @click="toggleGrid" class=" rounded-full px-3 py-2 hover:shadow-md hover:bg-gray-100 my-5">
+          <img  class="w-8 h-8 ratateDegree" :class="{'rotate-180' : isRotated }" src="https://www.svgrepo.com/show/522521/down-2.svg"  id="myImage" >
+        </button></div>
     </div>
 </template>
 
@@ -21,12 +25,14 @@ export default {
 name:"popup",
   data() {
     return {
-      showGrid: false
+      showGrid: false,
+      isRotated: false,
     };
   },
   methods: {
     toggleGrid() {
       this.showGrid = !this.showGrid;
+      this.isRotated = !this.isRotated;
     }
   }
 }

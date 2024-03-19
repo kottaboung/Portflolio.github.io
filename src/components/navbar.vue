@@ -15,6 +15,9 @@
            <li class="px-5 rounded-full py-1 hover:bg-gray-50 cursor-pointer">
                <a href="#project">Project</a>
            </li>
+           <li class="px-5 rounded-full py-1 hover:bg-gray-50 cursor-pointer">
+               <a href="#contact">Contact</a>
+           </li>
        </ul>
        
       </div> 
@@ -35,10 +38,13 @@
                     <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                         <img class="w-10 h-10 me-2 rounded-full" src="https://github.com/kottaboung/myweb/blob/main/pic/a.JPG?raw=true" alt="Jese image">
                         Kottaboung Nanvong<br>
-                        64200002@kmitl.ac.th
+                        64200002@kmitl.ac.th<br>
+                        
                     </a>
                     </li>
-                    
+                    <li class=" px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                        <a><p class=" text-center">Tel : 098-016-9099</p></a>
+                    </li>
                 </ul>
                 
                 </div>

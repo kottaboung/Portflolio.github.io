@@ -41,6 +41,13 @@ document.addEventListener('mousemove', (event) => {
                   <a href="https://www.facebook.com/profile.php?id=100087529516721" target="_blank" 
                   class=" rounded-full bg-white hover:bg-gray-300 p-0.5 w-fit cursor-pointer font-bold font-mono">
                   <img class="w-7 h-7 rounded-full" src="https://www.svgrepo.com/show/504313/facebook.svg"></a>
+                  <a data-tooltip-target="tooltip-phone" 
+                  class=" rounded-full bg-white hover:bg-gray-300 p-0.5 w-fit cursor-pointer font-bold font-mono">
+                  <img class="w-7 h-7 p-0.5 rounded-full" src="https://www.svgrepo.com/show/77244/call-button.svg"></a>
+                  <div id="tooltip-phone" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                          098-016-9099
+                          <div class="tooltip-arrow" data-popper-arrow></div>
+                      </div>
                   </div>
             </div>
           </div>
@@ -64,9 +71,10 @@ document.addEventListener('mousemove', (event) => {
                       <img class="w-16 h-16  " src="https://www.svgrepo.com/show/307996/piano-concert-skill-pianist-concert.svg" alt="">
                       <p class="text-sm">Self Learning</p>
                     </li>
-                    <li class="p-2 items-center flex flex-col justify-center">
+                    <li  class="p-2 items-center flex flex-col justify-center">
                       <img class="w-16 h-16  " src="https://www.svgrepo.com/show/421285/line-reading-text.svg" alt="">
                       <p class="text-sm">Problem solving</p>
+                      
                     </li>
 
                   </ul>
@@ -106,6 +114,7 @@ document.addEventListener('mousemove', (event) => {
                           <div class="tooltip-arrow" data-popper-arrow></div>
                       </div>
                     </li>
+                    
 
                   </ul>
                   <popup2 />
@@ -115,7 +124,7 @@ document.addEventListener('mousemove', (event) => {
     </section>
 
 
-    <section id="project" class="flex flex-col items-center mb-20">
+    <section id="project" class="flex flex-col items-center mb-52">
       <h1 class="text-2xl font-bold mb-5 ">My Project</h1>
       <div class="w-3/5 shadow-lg">
         <carousel />
@@ -130,7 +139,7 @@ document.addEventListener('mousemove', (event) => {
 
     </section>
 
-    <section id="form" class="">
+    <section id="contact" class="">
       <p class=" text-2xl text-center my-5 font-bold">Contact Me !</p>
       <form1 />
 

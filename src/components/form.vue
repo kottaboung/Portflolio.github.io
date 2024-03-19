@@ -18,7 +18,7 @@
         </div>
         <div class="mt-8">
           <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-          <textarea name="1message" class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" required></textarea>
+          <textarea name="1message" class="w-full h-32 bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" required></textarea>
         </div>
         <button type=" submit"
           class="mt-8 uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 

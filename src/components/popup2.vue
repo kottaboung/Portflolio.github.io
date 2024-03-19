@@ -3,13 +3,13 @@
         <button @click="toggleGrid" class=" rounded-full px-3 py-2 hover:shadow-md hover:bg-gray-100 my-5">See More</button>
         <div v-if="showGrid" id="gridContainer" class="grid-container">
         
-        <ul class="flex flex-col md:grid md:grid-cols-3 md:grid-flow-row  gap-3 grid-item">
+        <ul class="flex flex-col md:grid md:grid-cols-3 md:grid-flow-row  gap-3 grid-item relative">
 
-            <li data-tooltip-target="tooltip-python" class="p-2 items-center flex flex-col justify-center">
+            <li data-tooltip-target="tooltip-python" class="p-2 items-center flex flex-col justify-center relative">
             <img class="w-16 h-16  " src="https://www.svgrepo.com/show/452091/python.svg" alt="">
             <p class="text-sm">Python</p>
 
-              <div id="tooltip-python" role="tooltip" class="absolute z-50 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+              <div id="tooltip-python" role="tooltip" class="absolute invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                   5/10 point
                   <div class="tooltip-arrow" data-popper-arrow></div>
               </div>
@@ -40,7 +40,7 @@
                   <div class="tooltip-arrow" data-popper-arrow></div>
               </div>
             </li>
-            <li data-tooltip-target="tooltip-css" class="p-2 items-center flex flex-col justify-center">
+            <li data-tooltip-target="tooltip-css" class="relative p-2 items-center flex flex-col justify-center">
             <img class="w-16 h-16  " src="https://www.svgrepo.com/show/452185/css-3.svg" alt="">
             <p class="text-sm">CSS</p>
               <div id="tooltip-css" role="tooltip" class="absolute z-50 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">

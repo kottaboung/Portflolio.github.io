@@ -5,6 +5,7 @@ import popup from './components/popup.vue'
 import popup2 from './components/popup2.vue'
 import carousel from './components/carousel.vue'
 import footerrel from './components/footer.vue'
+import form1 from './components/form.vue'
 
 document.addEventListener('mousemove', (event) => {
   const image = document.getElementById('image');
@@ -114,7 +115,7 @@ document.addEventListener('mousemove', (event) => {
     </section>
 
 
-    <section id="project" class="flex flex-col items-center mb-10 ">
+    <section id="project" class="flex flex-col items-center mb-20">
       <h1 class="text-2xl font-bold mb-5 ">My Project</h1>
       <div class="w-3/5 shadow-lg">
         <carousel />
@@ -123,15 +124,22 @@ document.addEventListener('mousemove', (event) => {
     </section>
 
 
-    <section class="mt-20">
-      <footerrel />
-      
-    </section>
+    
 
     <section id="playg" class="">
 
     </section>
+
+    <section id="form" class="">
+      <p class=" text-2xl text-center my-5 font-bold">Contact Me !</p>
+      <form1 />
+
+    </section>
     
+    <section class="mt-20">
+      <footerrel />
+      
+    </section>
     <footbar />
   
 </template>
